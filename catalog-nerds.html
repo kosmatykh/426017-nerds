@@ -36,8 +36,9 @@
         <div class="catalog">
           <section class="catalog-filter">
             <div class="catalog-filter-price">
-              <h2 class="filter-title">Стоимость:</h2>
-              <!-- какой-то интерактивный элемент -->
+              <b class="filter-name">Стоимость:</b>
+              <div class="range">
+              </div>
               <form action="#" method="post">
                 <label>
                   От <input type="text" name="price-from">
@@ -48,8 +49,8 @@
               </form>
             </div>
             <div class="catalog-filter-type">
-              <h2 class="filter-title">Сетка:</h2>
-              <form action="#" method="post">
+              <b class="filter-name">Сетка:</b>
+              <form action="#" method="get">
                 <ul>
                   <li>
                     <label>
@@ -70,7 +71,7 @@
               </form>
             </div>
             <div class="catalog-filter-features">
-              <h2 class="filter-title">Особенности:</h2>
+              <b class="filter-name">Особенности:</b>
               <form action="#" method="post">
                 <ul>
                   <li>
@@ -99,17 +100,82 @@
                     </label>
                   </li>
                 </ul>
+                <input type="button" name="button" value="Показать">
               </form>
             </div>
           </section>
           <section class="catalog-items">
-
-
-
-
-
-
-
-
-  </body>
+            <div class="catalog-items-sorting">
+              <div class="catalog-sorting-name">
+                <p>Сортировать:</p>
+              </div>
+              <div class="catalog-sorting-types">
+                <ul>
+                  <li>По цене</li>
+                  <li>По типу</li>
+                  <li>По названию</li>
+                </ul>
+              </div>
+              <div class="catalog-sorting-arrows">
+                <img src="img/arrow-up.png" width="10" height="10" alt="стрелка">
+                <img src="img/arrow-down.png" width="10" height="10" alt="стрелка">
+              </div>
+            </div>
+            <div class="catalog-items-desc">
+              <div class="catalog-items-img">
+                <img src="img/sedona.png" width="150" height="100" alt="Картинка товара">
+              </div>
+              <div class="catalog-items-img">
+                <img src="img/pink.png" width="150" height="100" alt="Картинка товара">
+              </div>
+              <div class="catalog-items-img">
+                <img src="img/borodinski.png" width="150" height="100" alt="Картинка товара">
+              </div>
+              <div class="catalog-items-img">
+                <img src="img/mishki.png" width="150" height="100" alt="Картинка товара">
+              </div>
+              <div class="catalog-items-img">
+                <img src="img/a.png" width="150" height="100" alt="Картинка товара">
+              </div>
+              <div class="catalog-items-img">
+                <img src="img/kvast.png" width="150" height="100" alt="Картинка товара">
+              </div>
+            </div>
+            <div class=catalog-items-pages>
+              <ul>
+                <li><p>1</p></li>
+                <li><p>2</p></li>
+                <li><p>3</p></li>
+                <li><p>Следующая</p></li>
+              </ul>
+            </div>
+          </section>
+        </div>
+    </main>
+      <footer class="main-footer">
+        <div class="container">
+          <section class="footer-map">
+            <div class="footer-map-contacts">
+              <b class="contacts-name">NERDS Design Studio</b>
+              <p>191186, Санкт-Петербург, ул. Большая Конюшенная д.19/8</p>
+              <p>тел. +7(812)275-75-75</p>
+              <a href="#">Напишите нам</a>
+            </div>
+          </section>
+          <section class="footer-links">
+            <div class="footer-links-logo">
+              <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+            <div class="footer-links-description">
+              <b>Давайте дружить, это выгодно!</b>
+              <p>Скидка 10% для друзей из социальных сетей.</p>
+            </div>
+          </section>
+        </div>
+      </footer>
+    </body>
 </html>
