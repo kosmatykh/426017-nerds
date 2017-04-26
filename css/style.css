@@ -1,0 +1,39 @@
+body {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: normal;
+  font-family: "Roboto";
+}
+
+.main-header {
+  font-size: 13px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.features-title {
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.main-title {
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.filter-name {
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Roboto";
+}
